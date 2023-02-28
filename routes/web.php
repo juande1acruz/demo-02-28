@@ -32,6 +32,10 @@ Route::get('/person', function() {
                 'name' => 'Maria',
                 'age'  => 35
             ],
+            [
+                'name' => 'Naruto',
+                'age'  => 11
+            ],
         ]
     ]);
 });
