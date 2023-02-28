@@ -9,7 +9,7 @@
     <title>Person</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container mt-3">
         <h1 style="color: {{ $color }}">Person</h1>
         <p>This is the person view!</p>
         <hr>
