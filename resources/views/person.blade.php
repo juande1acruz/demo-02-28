@@ -26,7 +26,9 @@
     <h3>Siblings</h3>
     <ol>
         @foreach($siblings as $sibling)
-            <li>{{ $sibling }}</li>
+            <li>
+                {{ $sibling }}
+            </li>
         @endforeach
     </ol>
 </body>

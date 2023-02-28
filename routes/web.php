@@ -24,11 +24,14 @@ Route::get('/person', function() {
         'address' => 'Nabua, Camarines Sur',
         'color' => 'blue',
         'siblings' => [
-            'Pedro',
-            'Maria',
-            'Cardo',
-            'San Goku',
-            'Naruto'
+            [
+                'name' => 'Pedro',
+                'age'  => 17
+            ],
+            [
+                'name' => 'Maria',
+                'age'  => 35
+            ],
         ]
     ]);
 });
