@@ -49,7 +49,7 @@
                                 <span style="color: red">Cannot vote!</span>
                             @else
                                 <span style="color: green">Can vote!</span>
-                            @endif
+                            @endi\f
                         </td>
                     </tr>
                 @endforeach
